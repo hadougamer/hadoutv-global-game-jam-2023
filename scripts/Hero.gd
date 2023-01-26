@@ -31,7 +31,6 @@ func _physics_process(delta):
 	else:
 		$Sprite.play('idle')
 		motion.x = 0
-		dash=false
 
 	if is_on_floor():
 		if Input.is_action_pressed("ui_jump"):
